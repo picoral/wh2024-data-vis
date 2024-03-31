@@ -1,0 +1,12 @@
+---
+title: "National Parks -- Numbers of Visitors"
+format: dashboard
+---
+
+Data from <a href="https://irma.nps.gov/">The Integrated Resource Management Applications (IRMA) Portal</a>
+
+```{python}
+import pandas as pd
+import plotly.express as px
+df = pd.read_csv("tidy-data/national_parks_data.csv")
+```
